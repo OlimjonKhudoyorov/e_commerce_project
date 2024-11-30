@@ -22,7 +22,6 @@ public class Order {
     private double totalPrice;
 
     public Order(Basket basket) {
-        System.out.println();
         this.items = basket.getMapBasket();
         this.totalPrice = calculateTotalPrice();
     }
